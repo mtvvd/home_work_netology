@@ -44,6 +44,14 @@ VALUES
 	(13, 5)
 ;
 
+INSERT INTO performer_musical_ganre 
+	(performer_id, musical_ganre_id)
+VALUES 
+	(6, 3),
+	(9, 1),
+	(11, 1)
+;
+
 INSERT INTO album 
 	(album_id, album_title, year_of_release)
 VALUES 
