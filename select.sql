@@ -2,7 +2,8 @@ SELECT album_title, year_of_release FROM album
 WHERE year_of_release BETWEEN 2018 AND 2018;
 
 SELECT track_name, track_duration FROM music_track
-ORDER BY track_duration DESC;
+ORDER BY track_duration DESC
+LIMIT 1
 
 SELECT track_name FROM music_track
 WHERE track_duration >= 03.50 * 60;
